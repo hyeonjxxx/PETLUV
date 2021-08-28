@@ -14,10 +14,13 @@
 	
 	<typeAliases>
 		<typeAlias type="com.hyeon.petluv.board.model.vo.Board" alias="Board" />
+		<typeAlias type="com.hyeon.petluv.board.model.vo.Reply" alias="Reply" />
+		<typeAlias type="com.hyeon.petluv.member.model.vo.Member" alias="Member" />
 	</typeAliases>
 	
 	<mappers>
 		<mapper resource="/mappers/board-mapper.xml" />
+		<mapper resource="/mappers/member-mapper.xml" />
 	</mappers>
 	
 </configuration>
